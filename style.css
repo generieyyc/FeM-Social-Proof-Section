@@ -1,0 +1,160 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.main-container {
+  min-width: 100vh;
+  min-height: 100vh;
+  background-image: url("images/bg-pattern-bottom-desktop.svg"), url(images/bg-pattern-top-desktop.svg);
+  background-position: top, top left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, auto;
+  display: grid;
+  grid-template: repeat(26, 1fr)/repeat(16, 1fr);
+  font-family: 'League Spartan', sans-serif;
+  z-index: 2;
+}
+
+.heading {
+  grid-column: 3/span 4;
+  grid-row: 1/span 2;
+  color: hsl(300, 43%, 22%);
+  font-size: 1.65rem;
+  padding-top: 70px;
+  margin: 0px;
+}
+
+.info, p {
+  grid-column: 3/span 5;
+  grid-row: 3/span 2;
+  font-size: 1.1rem;
+  line-height:150%;
+  color: hsl(303, 10%, 53%);
+  margin: 0;
+  padding: 0px;
+}
+
+.banner {
+  padding-top: 70px;
+  grid-column: 9/span 6;
+  grid-row: 1/span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.banner1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-right: 100px;
+}
+
+.banner2 {
+  display: flex;
+  flex-direction: row;
+   justify-content: flex-start;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding-left: 30px;
+  margin: 0 50px 0 50px;
+}
+
+.banner3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 100px;
+}
+
+.stars {
+  padding-right: 5px;
+}
+
+h4 {
+  padding-left: 40px;
+  color: hsl(300, 43%, 22%);
+}
+
+.testimonial {
+  grid-column: 3/span 12;
+  grid-row: 4/span 2;
+  gap: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.testimonial1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.testimonial2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: hsl(300, 43%, 22%);
+  margin: 15px 0px 35px 0px;
+  padding: 30px;
+}
+
+.testimonial3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 30px 0px 20px 0px;;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.name {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+.buyer {
+  color: hsl(333, 80%, 67%);
+  margin: 0px;
+  padding: 0px;
+}
+comment {
+  color: hsl(300, 24%, 96%);
+  line-height: 120%;
+}
+.sub-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-buyer {
+  margin-left: 20px;
+  padding: 0px;
+}
+
+#colton, #irene, #anne {
+  border-radius:50%;
+  width: 15%;
+}
+ 
